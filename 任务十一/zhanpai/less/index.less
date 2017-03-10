@@ -1,0 +1,137 @@
+/*初始化*/
+
+html,
+body,
+div,
+p,
+span,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+figure,
+nav,
+article,
+section,
+footer,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.inBlock {
+    display: inline-block;
+}
+@red:#990000;
+//公交站牌
+.bus-stop-board {
+    width: 467px;
+    height:100px;
+    margin: 0 auto;
+    //公交站牌顶部信息
+    .title {
+        height: 80px;
+        font-size: 14px;
+        margin: 15px 0 0;
+        text-align: center;
+        .fl{
+            font-size:50px;
+            width:100px;
+            margin-left:40px;
+        }
+        .car-time {
+            width:123px;
+            height:40px;
+            font-size: 16px;
+            font-weight: bold;
+            float:right;
+            margin:20px 40px 0 0;
+            line-height:80px;
+        }
+        .car-time span{
+            float:left;
+            height:25px;
+            line-height:25px;
+
+        }
+        .fr{
+            width:100%;
+             background:@red;
+             color:#fff;
+             font-size:20px;
+        }
+    }
+    //公交站牌主体
+    .bus-name-body ul {
+        clear:both;
+        height: 186px;
+        padding: 0 5px;
+        border: 1px solid @red;
+        display: flex;
+        justify-content: space-between;
+        li {
+            font-size: 11px;
+            width: 12px;
+            text-align: center;
+            height: 116px;
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+    }
+    //开往方向
+    .direction {
+        height: 18px;
+       // background: @red;
+        position: relative;
+        text-align:center;
+        .frome-to{
+        width: 180px;
+        height: 4px;
+        background: @red;
+        display:inline-block;
+        position: relative;
+        } 
+        .line-height{
+         position: relative;
+            top:5px;
+        }
+        .to{
+            width:170px;
+        }
+    }
+    .sign{
+            position: absolute;
+            right: -16px;
+            top:-5px;
+            border: 8px solid transparent;
+            border-left-color: @red;
+            width: 0;
+            height: 0;
+
+    }
+
+}

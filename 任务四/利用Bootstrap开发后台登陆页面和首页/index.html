@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+    <!-- biao ti -->
+        <div class="title">
+            <h2>东北林业大学管理系统</h2>
+            <small>仔细小心不要出错哦</small>
+        </div>
+    <!--end biao ti -->
+
+        <div class="sidebar">
+            <div class="container-fluid">
+                <div class="row">
+                <!-- ce bian lan -->
+                    <div class="col-md-2">
+                        <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+                            <li class="active">
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-th-large"></i> 学校管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse">
+                                    <i class="glyphicon glyphicon-cog"></i> 类别管理
+                                    <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                                <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+                                    <li><a href="#"><i class="glyphicon glyphicon-user"></i>1</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-th-list"></i>2</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-edit"></i>3</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>4</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-credit-card"></i> 预约管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-globe"></i> 活动管理
+                                    <span class="label label-warning pull-right">5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#userSetting" class="nav-header collapsed" data-toggle="collapse">
+                                    <i class="glyphicon glyphicon-calendar"></i> 用户管理
+                                    <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                                <ul id="userSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+                                    <li><a href="#"><i class="glyphicon glyphicon-user"></i>1</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-th-list"></i>2</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>3</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-edit"></i>4</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-globe"></i> 留言管理
+                                    <span class="label label-warning pull-right">5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#styleSetting" class="nav-header collapsed" data-toggle="collapse">
+                                    <i class="glyphicon glyphicon-globe"></i> 样式管理
+                                    <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                                <ul id="styleSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+                                    <li><a href="#"><i class="glyphicon glyphicon-user"></i>1</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-th-list"></i>2</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>3</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-edit"></i>4</a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-fire"></i> 关于系统
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                <!--end ce bian lan -->
+
+                    <!-- cha xun lan -->
+                    <div class="col-md-10">
+                        <div class="content">
+                            
+                            <h2><span class="glyphicon glyphicon-minus"></span>学校管理</h2>
+                            <form action="" method="get" accept-charset="utf-8">
+                                <div class="form-group">
+                                    <label for="schoolnum" class="control-label col-md-2 ">学校编号:</label>
+                                    <div class="col-md-3 ">
+                                        <input type="number" class="form-control" name="" value="" placeholder="学校编号" id="schoolnum">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="schoolname" class="control-label col-md-2">学校名称:</label>
+                                    <div class="col-md-3 ">
+                                        <input type="text" name="" class="form-control" value="" id="schoolname" placeholder="学校名称">
+                                    </div>
+                                </div>
+                                <a class="btn btn-success col-md-1 check-btn">查询</a>
+                            </form>
+
+                            <!-- tian jia xue xiao an niu -->
+                            <a class="btn btn-success addschool-btn"><span class="glyphicon glyphicon-plus "></span>添加学校</a>
+
+                            <!-- biao ge  -->
+                            <table class="table table-striped table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>学校编号</th>
+                                        <th>姓名</th>
+                                        <th>修改</th>
+                                        <th>删除</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <th><a href="#">修改</a></th>
+                                        <th><a href="#">删除</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <th><a href="#">修改</a></th>
+                                        <th><a href="#">删除</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <th><a href="#">修改</a></th>
+                                        <th><a href="#">删除</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <th><a href="#">修改</a></th>
+                                        <th><a href="#">删除</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <td>data</td>
+                                        <th><a href="#">修改</a></th>
+                                        <th><a href="#">删除</a></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- fen ye  -->
+                            <nav aria-label="page navigation ">
+                                <ul class="pagination page-ul">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+
+</html>

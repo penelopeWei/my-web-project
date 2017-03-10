@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	position: relative;
+	text-align: center;
+	
+}
+table,tr,td,th{
+	border: 1px solid darkgrey;
+}
+
+table{
+	border-collapse: collapse;
+	width: 600px;
+	margin: 4px 6px;
+	text-align: center;
+	line-height: 30px;
+}
+
+table caption{
+	line-height: 60px;
+	font-size: 30px;
+}
+/*******设置上午和1234宽度一样********/
+table tbody td:nth-child(1){
+	width:60px;
+}
+table thead th{
+	width: 60px;
+}
+
+
+table tr:nth-child(odd){
+	background: #FFE1FF;
+}
+table tr:nth-child(even){
+	background: #FFF0F5;
+}
+
+table tr:nth-child(5){
+	background: #E6E6FA;
+}
+[rowspan]{
+	background: #E6E6FA;
+}

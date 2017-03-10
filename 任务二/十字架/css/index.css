@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/******为所有div设置基本属性*********/
+.content div{
+	background: #1E90FF;
+	width: 100px;
+	height: 100px;
+
+}
+/******end  为所有div设置基本属性*********/
+/*******设置每个div的位置，阴影********/
+.one{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -150px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+	
+	
+}
+.two{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+	
+}
+.three{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	opacity: 0.9;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+	
+}
+
+.four{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 50px;
+	margin-top: -50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+.five{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+/*******end设置每个div的位置，阴影********/
+/*******设置图片的位置，大小********/
+#whale{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+	width: 64px;
+	height: 64px;
+}
+/*******end设置图片的位置，大小*********/
+
+/*********设置5个div的动画*********/
+.one{
+	animation: one 700ms linear 100ms;
+}
+.two{
+	animation: two 700ms linear 100ms;
+}
+.four{
+	animation: four 700ms linear 100ms;
+}
+.five{
+	animation: five 700ms linear 100ms;
+}
+.three{
+	animation: three 700ms linear 100ms;
+}
+@keyframes one{
+	/**问题一：     老师，我直接把初始位置都写出来，向下面注释的这样，为什么运行结果和
+	 * 	50%{
+		transform: translateY(-250px);
+	    }
+	不一样
+	 * **/
+	/*0%{
+		transform: translateX(-50px);
+		transform: translateY(-150px);
+	}
+	50%{
+		transform: translateX(-50px);
+		transform: translateY(-250px);
+	}
+	100%{
+		transform: translateX(-50px);
+		transform: translateY(-150px);
+	}*/
+	50%{
+		transform: translateY(-250px);
+	}
+}
+@keyframes two{
+	50%{
+		transform: translateX(-250px);
+	}
+}
+@keyframes three{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@keyframes four{
+	
+	50%{
+		transform: translateX(250px);
+	}
+}
+@keyframes five{
+
+	50%{
+		transform: translateY(250px);
+	}
+}
+/*********div设置5个div的动画*********/

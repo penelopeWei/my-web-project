@@ -1,0 +1,47 @@
+ *{
+ 	padding: 0;
+ 	border: 0;
+ 	margin: 0;
+ }
+ .content{
+	display: block;
+ 	width: 320px;
+ 	height: 421px;
+ 	margin: 20px auto;
+ 	background: #ccc;
+ }
+ .results{
+ 	position: relative;
+ 	width: 320px;
+ 	height: 100px;
+ 	background: #111;
+
+ }
+ .results #results-p{
+ 	position: absolute;
+ 	bottom: 0;
+	display: inline-block;
+ 	width: 100%;
+ 	height: 30px;
+ 	background: #111;
+ 	color: #fff;
+ 	text-align: right;
+ 	font-size: 20px;
+	line-height: 30px;
+ }
+ .input div button{
+ 	margin-bottom: 4px;
+ 	width: 60px;
+ 	height: 60px;
+ 	float: left;
+ 	margin-right: 4px;
+
+ }
+ #zero{
+ 	width: 124px;
+
+ }
+ #equals{
+ 	width: 124px;
+ 	
+ }

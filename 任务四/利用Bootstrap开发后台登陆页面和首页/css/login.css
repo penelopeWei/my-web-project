@@ -1,0 +1,58 @@
+/* body{
+	min-width: 600px ;
+	min-height: 600px;
+} */
+.title-bg {
+	height: 141px;
+	margin-top: 30px;
+	margin-left: 130px;
+	width: 474px;
+	z-index: 1;
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 474px ;
+	/* background-size: cover; */
+} 
+#titlebg{
+	background-image:url('../img/school.jpg');
+
+}
+
+.middle{
+	position: absolute;
+	display: block;
+	margin: 30px auto;
+	top: 100px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+.middle-bg{
+	height: 300px;
+	margin-top: 10px;
+	margin-left: -110px;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+#middlebg{
+	background-image: url('../img/bgtp.gif')
+}
+
+
+.middlecontent{
+	margin: 65px auto;
+		z-index: 2;
+}
+
+
+.btn{
+	width: 100px;
+	margin-right: 10px;
+}

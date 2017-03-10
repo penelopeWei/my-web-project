@@ -1,0 +1,47 @@
+ 
+ .content{
+	display: block;
+ 	width: 400px;
+ 	height: 300px;
+ 	margin: 200px auto;
+ 	background: #ccc;
+ }
+ .content form{
+ 	display: block;
+ }
+
+ .num{
+ 	display: block;
+ 	width: 300px;
+ 	padding: 70px 70px 10px 10px;
+ }
+ #strinput{
+ 	display: block;
+ 	width: 200px;
+ 	padding: 12px 14px;
+ 	margin: -28px 0px 3px 80px;
+ 	border-radius: 7px;
+ }
+
+ 
+ #sumbit{
+ 	display: block;
+ 	width: 100px;
+ 	padding: 12px 14px;
+ 	margin: 20px auto;
+ 	border-radius: 4px;
+	background: #51dc2a;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+ }
+ #greed{
+
+ 	display: block;
+ 	width: 350px;
+ 	height: 20px;
+	margin: 20px auto;
+	text-align: center;
+	/* background: #fff; */
+	/* padding: 20px 100px 20px 30px; */
+ }

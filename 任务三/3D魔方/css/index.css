@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.view {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	-webkit-perspective: 1000px;
+	-webkit-perspective-origin: 240px 240px 0;
+	-moz-perspective: 1000px;
+	-moz-perspective-origin: 240px 240px 0;
+	perspective: 1000px;
+	perspective-origin: 240px 240px 0;
+}
+
+
+/*容器*/
+
+.box {
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-animation: margic 6s ease-in 1s infinite;
+	-moz-animation: margic 6s ease-in 1s infinite;
+	animation: margic 6s ease-in 1s infinite;
+}
+
+@-webkit-keyframes margic {
+	30%{
+		-webkit-transform: translateZ(190px) rotateX(60deg) ;
+	}
+	80%{
+		-webkit-transform: translateZ(130px)  rotateY(360deg);
+	}
+}
+@-webkit-keyframes margic {
+	30%{
+		transform:translateZ(190px) rotateX(60deg);
+	}
+	80%{
+		transform:  translateZ(130px) rotateY(360deg);
+	}
+}
+@-moz-keyframes margic {
+	30%{
+		-moz-transform:translateZ(190px) rotateX(60deg);
+	}
+	80%{
+		-moz-transform:  translateZ(130px) rotateY(360deg);
+	}
+}
+/*end容器*/
+
+
+.box>div {
+	width: 240px;
+	height: 240px;
+}
+
+.box div>div {
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: 1px;
+	margin-right: 1px;
+	border: 4px solid #00008B;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	opacity: 0.6;
+}
+
+
+/*顶面*/
+.box1 {
+	-webkit-transform:  rotateX(90deg) translateZ(120px);
+	-moz-transform:  rotateX(90deg) translateZ(120px);;
+	transform: rotateX(90deg) translateZ(120px);
+	
+}
+
+.box1 div {
+	background-color: #BFEFFF;
+}
+/*end顶面*/
+
+
+/*底面*/
+.box2 {
+	-webkit-transform:  rotateX(90deg) translateZ(120px);
+	-moz-transform:  rotateX(90deg) translateZ(120px);
+	transform: rotateX(90deg) translateZ(120px);
+}
+
+.box2 div {
+	background-color: #C6E2FF;
+}
+/*end底面*/
+
+
+
+
+/*左面*/
+.box3 {
+	-webkit-transform:rotateY(90deg) translateY(-480px) translateZ(-120px);
+	-moz-transform: rotateY(90deg) translateY(-480px) translateZ(-120px);
+	transform:rotateY(90deg) translateY(-480px) translateZ(-120px);
+}
+
+.box3 div {
+	background-color: #D15FEE;
+}
+/*end左面*/
+
+
+/*右面*/
+.box4 {
+	-webkit-transform: rotateY(90deg) translateZ(120px) translateY(-720px);
+	-moz-transform:  rotateY(90deg) translateZ(120px) translateY(-720px);
+	 transform: rotateY(90deg) translateZ(120px) translateY(-720px);
+}
+.box4 div {
+	background-color: #EEEE00;
+}
+/*end右面*/
+
+
+
+
+/*前面*/
+
+.box5 {
+		-webkit-transform: translateY(-960px) translateZ(120px);
+		-moz-transform:  translateY(-960px) translateZ(120px);
+		transform:translateY(-960px) translateZ(120px);
+}
+
+.box5 div {
+	background-color: #FFBBFF;
+}
+/*end前面*/
+
+
+/*后面*/
+
+.box6 {
+	-webkit-transform: translateY(-1200px)  translateZ(-120px);
+		-moz-transform:  translateY(-1200px)  translateZ(-120px);
+	transform:translateY(-1200px)  translateZ(-120px);
+}
+.box6 div {
+	background-color: #F5DEB3;
+}
+
+/*end后面*/

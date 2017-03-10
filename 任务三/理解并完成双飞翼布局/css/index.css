@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+header{
+	height: 100px;
+	background-color: #EECBAD;
+	margin-bottom: 4px;
+	
+}
+h2{
+	color:#E0FFFF;
+	font-family:"YouYuan";
+	padding: 30px;
+	text-align: center;
+	}
+/*end header*/
+
+/*article*/
+article{
+	min-height: 600px;
+	background-color: #EECBAD;
+	overflow: hidden;
+	min-width: 600px;
+}
+.middle{
+	width: 100%;
+	float: left;
+	background-color: #EEE9E9;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	
+
+}
+.middle p{
+	text-indent: 2em;
+	line-height: 24px;
+	color:#FF8C00;
+	font-family:"YouYuan";
+}
+.inner{
+	margin: 6px 170px 6px 170px;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	overflow-y: scroll;
+	
+}
+.left{
+	width: 150px;
+	float: left;
+	height: 100px;
+	background-color: white;
+	margin-left: -100%;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	
+}
+.left-in{
+	width: 140px;
+	margin: 0 auto;
+	height: 100px;
+	background-color:#EEE9BF;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	
+	
+}
+.left-in ul{
+	display: block;
+	padding-top: 40px;
+	text-align: center;
+	line-height:40px ;
+	
+}
+
+.left-in ul li a{	
+	color: #9F79EE;
+}
+
+.right{
+	width: 150px;
+	float: left;
+	height: 100px;
+	background-color: white;
+	margin-left: -150px;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	
+}
+.right-in{
+	width: 140px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #EEE9BF;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+.right-in h5{
+	color:#E0FFFF;
+	font-family:"YouYuan";
+	padding: 30px;
+	text-align: center;
+}
+.right-in p{
+	color:#FF8247;
+	font-family:"YouYuan";
+	line-height: 14px;
+	font-size: 12px;
+	text-align: left;
+}
+/*end article*/
+
+/*footer*/
+footer{
+	margin-top: 4px;
+	height: 60px;
+	background-color: #F0F0F0;
+}
+
+/*end footer*/

@@ -1,0 +1,9 @@
+<?php
+header("Content-type:application/json;charset=utf-8");
+$host="localhost";
+$name="root";
+$passwold="123456";
+$debname="baidunews";
+$port="3306";
+$link=mysqli_connect($host,$name,$passwold,$debname,$port);
+?>

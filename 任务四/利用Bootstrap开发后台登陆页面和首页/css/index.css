@@ -1,0 +1,124 @@
+body{
+        background: #5151ea;
+}
+
+.title{
+    position: absolute;
+    height: 90px;
+    left: 120px;
+    top: 20px;
+    width: 100%;
+    background: #5151ea;
+    z-index: 2;
+    color: #fff;
+}
+/* dao hang tiao  */
+
+.sidebar{
+    position: relative;
+    left: -10px;
+    top: 150px;
+    margin-left: -60px;
+
+}
+#main-nav {
+    margin-left: 1px;
+}
+
+#main-nav.nav-tabs.nav-stacked > li > a {
+    padding: 10px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #Fff;
+    background:#104E8B;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+}
+
+#main-nav.nav-tabs.nav-stacked > li > a > span {
+    color: #104E8B;
+}
+
+#main-nav.nav-tabs.nav-stacked > li.active > a,
+#main-nav.nav-tabs.nav-stacked > li > a:hover {
+    color: #FFF;
+    background: #5CACEE;
+    /* border-color: #2B2E33; */
+}
+
+#main-nav.nav-tabs.nav-stacked > li.active > a,
+#main-nav.nav-tabs.nav-stacked > li > a:hover > span {
+    color: #FFF;
+}
+
+#main-nav.nav-tabs.nav-stacked > li {
+    margin-bottom: 4px;
+}
+
+
+/*定义二级菜单样式*/
+
+.secondmenu a {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-static-top {
+    background-color: #212121;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    background: url('') no-repeat 10px 8px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+    color: #fff;
+}
+/* end dao hang tiao  */
+/* zhu ye */
+.content{
+    margin-bottom: 90px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: -20px;
+}
+
+.content h2{
+    position: relative;
+    display: block;
+    margin: 13px 18px;
+    padding-top: 13px;
+
+
+}
+.content h2 span{
+    color: #87CEEB;
+    padding: 0 3px;
+}
+#schoolnum,#schoolname{
+    margin-left: -60px;
+}
+.addschool-btn{
+    /* display: block; */
+    margin-left: 80px;
+    margin: 20px 20px;
+}
+.content table{
+    width: 90%;
+    margin: 10px auto;
+}
+.page-ul{
+    /* display: block; */
+    margin: 20px 60px;
+}
+.page-ul a{
+    width: 50px;
+    height: 35px;
+    margin-right: 3px;
+    text-align: center;
+    color: #436EEE;
+}

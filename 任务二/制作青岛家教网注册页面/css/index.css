@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #00688B;
+}
+
+#content{
+	margin: 12px auto;
+	width: 710px;
+	height: 2550px;
+	border-radius: 30px;
+	background: #fff;
+}
+
+span{
+		font-size: 13px;
+}
+
+/*******网页头部********/
+header img{
+	width: 180px;
+	height: 76px;
+	margin: 4px 0 0 28px;
+}
+/*******end 网页头部********/
+
+/*******网页导航********/
+nav ul{
+	margin-right: 30px;
+	margin-top: -20px;
+}
+nav ul li{
+	display: inline-block;
+	float: right;
+	margin-left: 10px;	
+}
+nav a{
+	text-decoration: none;
+	color: #EE6AA7;
+}
+/*******end 网页导航********/
+
+
+/*******table的基本设置*******/
+tr,td,th{
+	border: 1px solid darkgrey;
+
+}
+table{
+		width: 637px;
+		border-collapse: collapse;
+}
+
+/*******end table的基本设置*******/
+
+/*********最大的table************/
+table caption span{
+	font-size: 30px;
+	border: 0;
+}
+article>form>table{
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+
+}
+article>form>table>span{
+	text-align: justify;
+}
+article>form>table span span{
+	color: red;
+}
+article>form>table a{
+	color: blue;
+}
+
+/*********end 最大的table************/
+
+/******嵌套表格内容**********/
+.insert-table tbody td>span{
+	color: red;
+}
+.insert-table tbody td>span span{
+	color: blue;
+}
+
+.insert-table th{
+	text-align: left;
+	color: #0000FF;
+	line-height: 20px;
+	background:#EAEAEA;
+}
+
+.insert-table td:first-child{
+	width: 136px;
+	font-size: 13px;
+	text-align: right;
+	margin-right: 4px;
+}
+.insert-table tr td:last-child{
+	font-size: 13px;
+	text-align: left;
+	padding: 2px 0  2px 2px;
+}
+.insert-table td h6{
+	display: inline-block;
+}
+
+.insert-table td form{
+	display: inline;
+}
+
+/******end 嵌套表格内容**********/
+.sub{
+	width: 86px;
+	height: 21px;
+	display: block;
+	margin:30px  auto;
+	text-align: center;
+	
+}
+
+
+/*******网页底部******/
+
+footer span{
+
+	display: block;
+	text-align: center;
+}
+
+/*******end 网页底部******/

@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+}
+
+
+/*标准盒模型*/
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #f8aba6;
+}
+
+.out-box {
+	margin: auto;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #f69c9f;
+	border: 5px solid salmon;
+}
+
+
+/*end 标准盒模型*/
+
+
+/*怪异盒模型*/
+
+.strange {
+	width: 100px;
+	height: 100px;
+	background-color: #f8aba6;
+}
+
+.strange-box {
+	margin: 2px auto;
+	padding: 10px;
+	width: 130px;
+	height: 130px;
+	box-sizing: border-box;
+	background-color: #f69c9f;
+	border: 5px solid salmon;
+}
+
+
+/*end 怪异盒模型*/
+
+
+
+
+
+/*旧版弹性盒子居中布局*/
+
+.center {
+	margin: 2px auto;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-align: center;
+	-moz-box-pack: center;
+	box-align: center;
+	box-pack: center;
+	width: 300px;
+	height: 300px;
+	background-color: #895344;
+}
+
+
+/*end 旧版弹性盒子居中布局*/
+
+
+/*flexbox*/
+
+
+.horizontal {
+	margin: 20px auto;
+	width: 640px;
+	-webkit-column-count: 3;
+	-webkit-column-rule-style: dashed;
+	-moz-column-count: 3;
+	-moz-column-rule-style: dashed;
+	column-count: 3;
+	column-rule-style: dashed;
+	background-color: #fedcbd;
+}
+.flexbox {
+	display: -webkit-flex;
+	-webkit-column-gap: 10px;
+	display: -moz-flex;
+	-moz-column-gap: 10px;
+	display: -ms-flex;
+	-ms-column-gap: 10px;
+	display: flex;
+	column-gap: 10px;
+	margin-bottom: 40px;
+}
+
+.first {
+	height: 100px;
+	background-color: #F5F5DC;
+	-webkit-flex: 1;
+	-webkit-order: 3;
+	-moz-flex: 1;
+	-moz-order: 3;
+	-ms-flex: 1;
+	-ms-order: 3;
+	flex: 1;
+	order: 3;
+}
+
+.second {
+	height: 100px;
+	background-color: #F5DEB3;
+	-webkit-flex: 1;
+	-webkit-order: 2;
+	-moz-flex: 1;
+	-moz-order: 2;
+	-ms-flex: 1;
+	-ms-order: 2;
+	flex: 1;
+	order: 2;
+}
+
+.three {
+	height: 100px;
+	background-color: #F4A460;
+	-webkit-flex: 1;
+	-webkit-order: 1;
+	-moz-flex: 1;
+	-moz-order: 1;
+	-ms-flex: 1;
+	-ms-order: 1;
+	flex: 1;
+	order: 1;
+}
+.flexbox1{
+	display: -webkit-flex;
+	-webkit-column-gap: 10px;
+	display: -ms-flex;
+	-moz-column-gap: 10px;
+	display: -ms-flex;
+	display: flex;
+	column-gap: 10px;
+	margin-bottom: 40px;
+	-webkit-flex-direction: column;
+}
+.first1 {
+	height: 100px;
+	background-color: #F5F5DC;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+}
+
+.second2 {
+	height: 100px;
+	background-color: #F5DEB3;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+
+}
+
+.three3 {
+	height: 100px;
+	background-color: #F4A460;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+
+}
+
+
+/*end flexbox*/
