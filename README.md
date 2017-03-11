@@ -70,3 +70,19 @@
 >>> * 了解bower  
 >>> * 了解 Yeoman
 >>> * 了解FIS
+
+>> ## 八 Git
+>>> * Git 本地操作  
+>>> * Git 远程协作  
+>>> * 深入理解 Git 远程操作  
+>>> * 理解 Git 中 push.default 配置的作用  
+>>> * Git 图形化工具的使用  
+>>> * 了解SVN
+
+>> ## 九 AngularJS 
+>>> * 了解AngularJS  
+>>> * AngularJS 进阶
+>>> * AngularJS 进阶- Services 与指令的使用  
+>>> * AngularJS内置服务$http的使用   
+>>> * AngularJS 进阶- Directive 的使用  
+>>> * AngularJS 之移动 APP 开发
