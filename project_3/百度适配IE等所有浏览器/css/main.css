@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html{
+	height: 100%;
+}
+body{
+	position: relative;
+	text-align: center;
+	margin: auto;
+	min-height: 780px;
+	min-width: 810px;
+	height: 100%;
+	width: 100%;
+}
+
+a{
+	text-decoration:none;
+
+}
+
+/*导航栏*/
+nav{
+	position: absolute;
+	width: 520px;
+	top: 20px;
+	right: 0;
+}
+
+nav>ul{
+	overflow: hidden;
+}
+nav>ul li{
+	float: right;
+	display: inline-block;
+	margin-right: 20px;
+	padding: 0;
+	text-align: center;
+}
+nav>ul li:first-child{
+	background: #1E90FF;	
+	padding: 3px ;
+	border: 0;
+}
+nav>ul li a{
+	border-bottom: 1px solid #CDC5BF;
+	padding-bottom: 0;
+}
+nav>ul li:first-child a{
+	border:0;
+	text-align: center;
+	line-height:6px;
+}
+
+
+nav span{
+	color: #000000;
+ 	font-size: 13px;
+}
+nav>ul li:first-child span{
+	color: #F0FFFF;
+	text-align: center;
+}
+nav div img{
+	width: 36px;
+	height: 40px;
+	z-index: -4;
+}
+
+ nav>ul span:hover{
+	color: #1E90FF;
+}
+
+
+nav .list-products{
+	z-index: 3;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color:#F5F5F5;
+	width: 84px;
+	height: 100%;
+	display: none;
+}
+
+nav .list-products li:last-child a{
+	border-bottom: 1px solid #CDC5BF;
+	
+}
+
+nav .list-products ul{
+	clear: all;
+	display: inline-block;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+nav .list-products ul li:first-child{
+	border: 0;
+	height: 50px;
+	line-height: 50px;
+}
+nav .list-products ul li{
+	width: 66px;
+	height: 76px;
+	border-top: 1px solid #E8E8E8;
+	margin: 4px;
+	text-align: center;
+}
+
+
+
+nav .inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 76px;
+}
+nav .list-products a:hover{
+border-bottom: 1px solid #CDC5BF;
+}
+
+
+ .preferences-list{
+	z-index: 3;
+	position: absolute;
+	right: 70px;
+	top: 30px;
+	background-color:#F5F5F5;
+	width: 70px;
+	display: inline-block;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: none;
+	
+}
+.preferences-list ul{
+	line-height: 30px;
+}
+.preferences-list a{
+	display: block;
+	color: #000000;
+ 	font-size: 13px;
+}
+.preferences-list li a:hover{
+	color: #FFFFFF;
+	background-color:#1E90FF;
+
+}
+
+
+
+
+/*end 导航栏*/
+/*内容*/
+article{
+	position: relative;
+	min-width: 810px;
+	top: 95px;
+	
+}
+article img{
+	width: 270px;
+	height: 129px;
+	margin-bottom: 18px;
+}
+article form{
+	position: relative;
+	margin: 10px auto;
+	width: 650px;
+}
+.search-text{
+	height: 36px;
+	width: 540px;
+	border: 1px solid #CDC9C9;
+	padding-left: 8px;
+	float: left;
+	outline: none;
+}
+.search-text:hover{
+	border: 1px solid #969696;
+}
+.search-text:focus{
+	border: 1px solid #1E90FF;
+}
+
+.submit-text{
+	width: 100px;
+	height: 38px;
+	padding:8px;
+	color:#F0FFFF; ;
+	border: 1px solid #1E90FF;
+	background: #1E90FF;
+	float: left;
+}
+article form span{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+}
+.camaer{
+	width: 18px;
+	height: 18px;
+	background: url(../img/camera.png) no-repeat;
+	right: 108px;
+	top: 10px;
+	right: 108px;
+}
+.middle{
+	width: 18px;
+	height: 18px;
+	background: url(../img/1.ico) no-repeat;
+	right: 108px;
+	top: 10px;
+	right: 124px;
+}
+
+.microphone{
+	width: 18px;
+	height: 18px;
+	background: url(../img/huatong1.png) no-repeat;
+	right: 108px;
+	top: 10px;
+	right: 138px;
+}
+.camaer:hover{
+	background-position: 0 -20px;
+	cursor: pointer;
+}
+.microphone:hover{
+		background: url(../img/huatong2.png) no-repeat;
+		cursor: pointer;
+}
+article input:last-child:hover{
+	background: #1E70FF;
+	cursor: pointer;
+}
+/*end 内容*/
+
+/*底部*/
+footer{
+	clear: both;
+	position: absolute;
+	bottom: 45px;
+	width: 100%;
+}
+
+footer div{
+	
+	display: inline-block;
+	margin-right: 2px;
+	
+}
+footer>div{
+	margin-left: 16px;
+}
+
+footer span{
+	color: #8C8C8C;
+	font-size: 10px;
+	line-height: 24px;
+}
+footer a{
+	border-bottom: 1px solid #8C8C8C;
+}
+footer .inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 60px;
+}
+
+footer li{
+	position: relative;
+	left: -8px;
+	display: inline-block;
+	margin-right: 4px;
+	
+	margin-left: 0;
+	padding-left: 0;
+}
+footer p img{
+	width: 14px;
+	height: 17px;
+	margin: 0px 4px;
+}
+
+footer>div>div:last-child p{
+	line-height: 24px;
+	text-align: left;
+}
+
+footer div p img:last-child{
+	position: absolute;
+	top: 32px;
+}
+
+/*end 底部*/
